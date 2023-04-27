@@ -1,5 +1,5 @@
 .env
-local-pt-checkpoint
+local-pt-checkpoint/
 deploy.sh
 test.sh
 event.json
