@@ -1,5 +1,4 @@
-# https://hub.docker.com/r/nikolaik/python-nodejs
-FROM public.ecr.aws/lambda/python:3.9-arm64 AS model
+FROM public.ecr.aws/lambda/python:3.9
 
 
 # Install the runtime interface client
