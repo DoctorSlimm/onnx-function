@@ -11,7 +11,7 @@ load_dotenv()
 # https://blog.ml6.eu/the-art-of-pooling-embeddings-c56575114cf8
 # https://github.com/UKPLab/sentence-transformers/issues/46#issuecomment-1152816277
 
-tokenizer = AutoTokenizer.from_pretrained('onnx')
+tokenizer = AutoTokenizer.from_pretrained('./onnx')
 session = InferenceSession("onnx/model.onnx")
 
 
