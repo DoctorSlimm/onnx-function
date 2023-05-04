@@ -56,7 +56,7 @@ def lambda_handler(event, context):
 
             return {
                 'modelOutputs': {
-                    'raw': model_outputs,
+                    'raw': model_outputs.tolist(),
                     'token_embeddings': token_embeddings.tolist(),
                     'max_pooled_embeddings': max_pooled_embeddings.tolist(),
                     'mean_pooled_embeddings': mean_pooled_embeddings.tolist(),
