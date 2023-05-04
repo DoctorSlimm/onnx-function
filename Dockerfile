@@ -19,7 +19,7 @@ COPY onnx onnx
 COPY ./entry_script.sh /entry_script.sh
 ADD aws-lambda-rie-arm64 /usr/local/bin/aws-lambda-rie-arm64
 ENTRYPOINT ["/entry_script.sh"]
-CMD [ "app.handler" ]
+CMD [ "app.lambda_handler" ]
 
 
 # Node https://github.com/aws/aws-lambda-nodejs-runtime-interface-client
