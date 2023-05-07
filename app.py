@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
     embs = r['embeddings']
     arr = np.array(embs)
-    print(arr.shape)
+    print(arr.shape)       # (768,)
 
     e = {
         "modelInputs": {
@@ -112,5 +112,5 @@ if __name__ == "__main__":
     embs = r['embeddings']
     arr = np.array(embs)
     print('Batched')
-    print(arr.shape)
+    print(arr.shape)  # (3, 768)
 
